@@ -11,13 +11,13 @@ class NetworkPage extends StatefulWidget {
 class _NetworkPageState extends State<NetworkPage> {
   String status = "لم يتم الفحص بعد";
 
-  
+
   Future<void> checkNetwork() async {
     final connectivityResult = await Connectivity().checkConnectivity();
-//     // ✅ استخدام مكتبة Connectivity لفحص نوع الاتصال الحالي
-//
-//     setState(() {
-//       if (connectivityResult == ConnectivityResult.mobile) {
+    
+
+    setState(() {
+      if (connectivityResult == ConnectivityResult.mobile) {
 //         status = "✅ متصل: بيانات الهاتف"; // ✅ إذا متصل ببيانات الهاتف
 //       } else if (connectivityResult == ConnectivityResult.wifi) {
 //         status = "✅ متصل: WiFi"; // ✅ إذا متصل بشبكة WiFi
