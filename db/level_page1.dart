@@ -6,9 +6,9 @@ class LevelPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final levels = ["مبتدئ", "متوسط", "متقدم"]; 
-//     final colors = [Colors.teal, Colors.orange, Colors.deepPurple]; // ✅ ألوان كل مستوى
-//     final icons = [Icons.school, Icons.settings, Icons.star]; // ✅ أيقونات كل مستوى
+    final levels = ["مبتدئ", "متوسط", "متقدم"];
+    final colors = [Colors.teal, Colors.orange, Colors.deepPurple];
+    final icons = [Icons.school, Icons.settings, Icons.star]; 
 //
 //     return Scaffold(
 //       appBar: AppBar(
