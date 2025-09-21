@@ -24,10 +24,10 @@ void main() async {
     runApp(const CyberApp()); // التطبيق العادي
   }
 }
-//
-// class CyberApp extends StatelessWidget {
-//   const CyberApp({super.key});
-//
+
+class CyberApp extends StatelessWidget {
+  const CyberApp({super.key});
+
 //   @override
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
