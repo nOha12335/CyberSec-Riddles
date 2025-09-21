@@ -66,10 +66,10 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: checkNetwork,
-              style: ElevatedButton.styleFrom(minimumSize: const Size(200, 50)), 
-//               child: const Text("فحص الشبكة"), // ✅ نص الزر
-//             ),
-//             const SizedBox(height: 10), // ✅ مسافة بين الزر والنص
+              style: ElevatedButton.styleFrom(minimumSize: const Size(200, 50)),
+              child: const Text("فحص الشبكة"),
+            ),
+            const SizedBox(height: 10),
 //             Text(
 //               networkStatus, // ✅ عرض حالة الاتصال بالإنترنت
 //               style: const TextStyle(fontSize: 18), // ✅ حجم الخط للنص
