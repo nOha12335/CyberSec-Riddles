@@ -30,9 +30,9 @@ class LevelPage extends StatelessWidget {
               },
               child: Container(
                 margin: const EdgeInsets.symmetric(vertical: 12),
-                padding: const EdgeInsets.all(20), 
-//                 decoration: BoxDecoration(
-//                   color: colors[index], // ✅ لون البطاقة حسب المستوى
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: colors[index], 
 //                   borderRadius: BorderRadius.circular(20), // ✅ حواف دائرية
 //                   boxShadow: const [ // ✅ إضافة ظل للبطاقة
 //                     BoxShadow(
