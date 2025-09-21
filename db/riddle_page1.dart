@@ -77,11 +77,11 @@ class _RiddlePageState extends State<RiddlePage> {
               decoration: const InputDecoration(
                   labelText: "الإجابة", border: OutlineInputBorder()),
             ),
-            const SizedBox(height: 20), 
-//             SizedBox(
-//               width: double.infinity,
-//               child: ElevatedButton(
-//                 onPressed: checkAnswer, // ✅ عند الضغط، التحقق من الإجابة
+            const SizedBox(height: 20),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: checkAnswer, 
 //                 style: ElevatedButton.styleFrom(minimumSize: const Size.fromHeight(56)),
 //                 child: const Text("تحقق"), // ✅ نص الزر
 //               ),
