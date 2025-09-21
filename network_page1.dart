@@ -5,12 +5,12 @@ class NetworkPage extends StatefulWidget {
   const NetworkPage({super.key});
 
   @override
-  State<NetworkPage> createState() => _NetworkPageState(); 
+  State<NetworkPage> createState() => _NetworkPageState();
 }
-//
-// class _NetworkPageState extends State<NetworkPage> {
-//   String status = "لم يتم الفحص بعد"; // ✅ متغير لتخزين حالة الشبكة
-//
+
+class _NetworkPageState extends State<NetworkPage> {
+  String status = "لم يتم الفحص بعد"; 
+
 //   // دالة لفحص الشبكة
 //   Future<void> checkNetwork() async {
 //     final connectivityResult = await Connectivity().checkConnectivity();
