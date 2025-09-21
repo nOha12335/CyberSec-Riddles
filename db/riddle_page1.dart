@@ -30,11 +30,11 @@ class _RiddlePageState extends State<RiddlePage> {
     {"q": "ما هو مصطلح البرمجيات الخبيثة؟", "a": "malware"},
   ];
 
-  final storage = const FlutterSecureStorage(); 
-//
-//   // دالة لتشفير الإجابة
-//   String hashAnswer(String input) =>
-//       sha256.convert(utf8.encode(input.trim().toLowerCase())).toString();
+  final storage = const FlutterSecureStorage();
+
+  
+  String hashAnswer(String input) =>
+      sha256.convert(utf8.encode(input.trim().toLowerCase())).toString();
 //   // ✅ تحويل الإجابة إلى أحرف صغيرة → تشفير SHA256 → تخزين مشفر
 //
 //   // دالة التحقق من الإجابة
