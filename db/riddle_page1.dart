@@ -43,9 +43,9 @@ class _RiddlePageState extends State<RiddlePage> {
     final hashedInput = hashAnswer(input);
     await storage.write(key: 'riddle_$currentRiddle', value: hashedInput);
 //
-    if (input == riddles[currentRiddle]['a']) { 
-//       setState(() {
-//         result = "صحيح ✅"; // ✅ تحديث النتيجة لتكون صحيحة
+    if (input == riddles[currentRiddle]['a']) {
+      setState(() {
+        result = "صحيح ✅"; 
 //         if (currentRiddle < riddles.length - 1) {
 //           currentRiddle++; // ✅ الانتقال للغز التالي
 //           controller.clear(); // ✅ مسح النص الموجود في حقل الإجابة
