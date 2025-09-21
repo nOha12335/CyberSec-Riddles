@@ -8,11 +8,11 @@ class LevelPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final levels = ["مبتدئ", "متوسط", "متقدم"];
     final colors = [Colors.teal, Colors.orange, Colors.deepPurple];
-    final icons = [Icons.school, Icons.settings, Icons.star]; 
-//
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: const Text("اختر المستوى"), // ✅ عنوان شريط التطبيق
+    final icons = [Icons.school, Icons.settings, Icons.star];
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("اختر المستوى"), 
 //         backgroundColor: Colors.teal, // ✅ لون شريط التطبيق
 //       ),
 //       body: Padding(
