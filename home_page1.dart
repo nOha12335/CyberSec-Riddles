@@ -35,8 +35,8 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> checkNetwork() async {
-    
-//     bool connected = await hasInternet(); // ✅ تحقق من الإنترنت
+
+    bool connected = await hasInternet(); 
 //     setState(() {
 //       networkStatus =
 //       connected ? "✅ متصل بالإنترنت" : "❌ لا يوجد اتصال بالإنترنت"; // ✅ تحديث النص المعروض
