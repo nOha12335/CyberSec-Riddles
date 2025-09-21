@@ -71,9 +71,9 @@ class _RiddlePageState extends State<RiddlePage> {
               riddles[currentRiddle]["q"]!,
               style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 20), 
+            const SizedBox(height: 20),
 //             TextField(
-//               controller: controller, // ✅ ربط حقل النص بالـ controller
+              controller: controller, 
 //               decoration: const InputDecoration(
 //                   labelText: "الإجابة", border: OutlineInputBorder()), // ✅ تصميم الحقل
 //             ),
