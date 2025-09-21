@@ -22,15 +22,15 @@ class _NetworkPageState extends State<NetworkPage> {
       } else if (connectivityResult == ConnectivityResult.wifi) {
         status = "✅ متصل: WiFi";
       } else {
-        status = "❌ لا يوجد اتصال بالإنترنت"; 
+        status = "❌ لا يوجد اتصال بالإنترنت";
       }
     });
   }
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(title: const Text("فحص الشبكة")), // ✅ شريط التطبيق مع عنوان الصفحة
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text("فحص الشبكة")), 
 //       body: Center(
 //         child: Column(
 //           mainAxisAlignment: MainAxisAlignment.center, // ✅ توسيط المحتوى عموديًا
