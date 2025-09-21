@@ -81,9 +81,9 @@ class _RiddlePageState extends State<RiddlePage> {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: checkAnswer, 
-//                 style: ElevatedButton.styleFrom(minimumSize: const Size.fromHeight(56)),
-//                 child: const Text("تحقق"), // ✅ نص الزر
+                onPressed: checkAnswer,
+                style: ElevatedButton.styleFrom(minimumSize: const Size.fromHeight(56)),
+                child: const Text("تحقق"), 
 //               ),
 //             ),
 //             if (result != null) ...[
