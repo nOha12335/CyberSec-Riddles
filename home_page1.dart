@@ -1,48 +1,44 @@
-import 'package:flutter/material.dart';
-import 'package:screen_protector/screen_protector.dart';
-import 'level_page.dart';
-import 'dart:io';
+import 'package:flutter/material.dart'; // ✅ استدعاء مكتبة Flutter الأساسية للواجهة
+import 'package:screen_protector/screen_protector.dart'; // ✅ أضفت مكتبة ScreenProtector لمنع تصوير الشاشة
+import 'level_page.dart'; // ✅ أضفت صفحة اختيار المستوى
+import 'dart:io'; // ✅ استدعاء مكتبة التعامل مع النظام (مثل فحص الإنترنت)
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  const HomePage({super.key}); // ✅ إنشاء StatefulWidget للصفحة الرئيسية
 
-//   @override
-//   State<HomePage> createState() => _HomePageState();
-// }
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
 //
 // class _HomePageState extends State<HomePage> {
-//   String networkStatus = "لم يتم الفحص بعد";
+//   String networkStatus = "لم يتم الفحص بعد"; // ✅ متغير لتخزين حالة الاتصال بالإنترنت
 //
 //   @override
 //   void initState() {
 //     super.initState();
-//     // 🔒 منع تصوير الشاشة أو تسجيلها
-//     ScreenProtector.preventScreenshotOn();
+//     ScreenProtector.preventScreenshotOn(); // ✅ منع تصوير الشاشة عند فتح الصفحة
 //   }
 //
 //   @override
 //   void dispose() {
-//     // ⬅️ إعادة السماح عند الخروج (اختياري)
-//     ScreenProtector.preventScreenshotOff();
+//     ScreenProtector.preventScreenshotOff(); // ✅ السماح بتصوير الشاشة عند الخروج (اختياري)
 //     super.dispose();
 //   }
 //
-//   // دالة للتحقق الفعلي من الإنترنت
-//   Future<bool> hasInternet() async {
+//   Future<bool> hasInternet() async { // ✅ دالة لفحص وجود الإنترنت فعليًا
 //     try {
-//       final result = await InternetAddress.lookup('google.com');
-//       return result.isNotEmpty && result[0].rawAddress.isNotEmpty;
+//       final result = await InternetAddress.lookup('google.com'); // ✅ تجربة البحث عن google.com
+//       return result.isNotEmpty && result[0].rawAddress.isNotEmpty; // ✅ إذا حصلنا على IP، الإنترنت موجود
 //     } catch (_) {
-//       return false;
+//       return false; // ✅ إذا فشل البحث، الإنترنت غير متصل
 //     }
 //   }
 //
-//   // دالة لفحص الشبكة وعرض النتيجة
-//   Future<void> checkNetwork() async {
-//     bool connected = await hasInternet();
+//   Future<void> checkNetwork() async { // ✅ دالة لتحديث حالة الشبكة في الصفحة
+//     bool connected = await hasInternet(); // ✅ تحقق من الإنترنت
 //     setState(() {
 //       networkStatus =
-//       connected ? "✅ متصل بالإنترنت" : "❌ لا يوجد اتصال بالإنترنت";
+//       connected ? "✅ متصل بالإنترنت" : "❌ لا يوجد اتصال بالإنترنت"; // ✅ تحديث النص المعروض
 //     });
 //   }
 //
@@ -51,34 +47,35 @@ class HomePage extends StatefulWidget {
 //     return Scaffold(
 //       body: Center(
 //         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
+//           mainAxisAlignment: MainAxisAlignment.center, // ✅ توسيط المحتوى عموديًا
 //           children: [
 //             const Text(
 //               "🛡️ ألغاز الأمان",
-//               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+//               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold), // ✅ عنوان الصفحة
 //             ),
-//             const SizedBox(height: 30),
+//             const SizedBox(height: 30), // ✅ مسافة بين العنوان والزر
 //             ElevatedButton(
 //               onPressed: () => Navigator.push(
 //                 context,
-//                 MaterialPageRoute(builder: (_) => const LevelPage()),
+//                 MaterialPageRoute(builder: (_) => const LevelPage()), // ✅ الانتقال لصفحة اختيار المستوى
 //               ),
-//               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 60)),
-//               child: const Text("ابدأ"),
+//               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 60)), // ✅ حجم الزر
+//               child: const Text("ابدأ"), // ✅ نص الزر
 //             ),
-//             const SizedBox(height: 20),
+//             const SizedBox(height: 20), // ✅ مسافة بين الأزرار
 //             ElevatedButton(
-//               onPressed: checkNetwork,
-//               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 50)),
-//               child: const Text("فحص الشبكة"),
+//               onPressed: checkNetwork, // ✅ زر لتشغيل فحص الشبكة
+//               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 50)), // ✅ حجم الزر
+//               child: const Text("فحص الشبكة"), // ✅ نص الزر
 //             ),
-//             const SizedBox(height: 10),
+//             const SizedBox(height: 10), // ✅ مسافة بين الزر والنص
 //             Text(
-//               networkStatus,
-//               style: const TextStyle(fontSize: 18),
+//               networkStatus, // ✅ عرض حالة الاتصال بالإنترنت
+//               style: const TextStyle(fontSize: 18), // ✅ حجم الخط للنص
 //             ),
 //           ],
 //         ),
 //       ),
 //     );
 //   }
+// }
