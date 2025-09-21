@@ -48,12 +48,12 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center, 
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-//             const Text(
-//               "🛡️ ألغاز الأمان",
-//               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold), // ✅ عنوان الصفحة
-//             ),
+            const Text(
+              "🛡️ ألغاز الأمان",
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold), 
+            ),
 //             const SizedBox(height: 30), // ✅ مسافة بين العنوان والزر
 //             ElevatedButton(
 //               onPressed: () => Navigator.push(
