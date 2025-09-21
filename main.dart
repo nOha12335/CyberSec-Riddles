@@ -3,13 +3,13 @@ import 'package:screen_protector/screen_protector.dart';
 import 'package:root_checker_plus/root_checker_plus.dart';
 import 'dart:io';
 import 'home_page.dart';
-//
-// void main() async {
-//   WidgetsFlutterBinding.ensureInitialized();
-//
-//   // 🔒 منع تصوير الشاشة
-//   await ScreenProtector.preventScreenshotOn();
-//
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // 🔒
+  await ScreenProtector.preventScreenshotOn();
+
 //   // فحص الروت والجلبريك
 //   bool isUnsafe = false;
 //   if (Platform.isAndroid) {
