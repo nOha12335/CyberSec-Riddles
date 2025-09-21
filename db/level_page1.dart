@@ -34,14 +34,14 @@ class LevelPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: colors[index],
                   borderRadius: BorderRadius.circular(20),
-                  boxShadow: const [ 
-//                     BoxShadow(
-//                         color: Colors.black26, blurRadius: 6, offset: Offset(0, 3))
-//                   ],
-//                 ),
-//                 child: Row(
-//                   children: [
-//                     Icon(icons[index], color: Colors.white, size: 36), // ✅ أيقونة المستوى
+                  boxShadow: const [
+                    BoxShadow(
+                        color: Colors.black26, blurRadius: 6, offset: Offset(0, 3))
+                  ],
+                ),
+                child: Row(
+                  children: [
+                    Icon(icons[index], color: Colors.white, size: 36), 
 //                     const SizedBox(width: 20), // ✅ مسافة بين الأيقونة والنص
 //                     Text(
 //                       levels[index], // ✅ اسم المستوى
