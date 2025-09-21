@@ -38,12 +38,12 @@ class _NetworkPageState extends State<NetworkPage> {
             Text(status, style: const TextStyle(fontSize: 20)),
             const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: checkNetwork, 
-//               child: const Text("افحص الآن"), // ✅ نص الزر
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
+              onPressed: checkNetwork,
+              child: const Text("افحص الآن"), 
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
