@@ -35,21 +35,22 @@ A Flutter-based mobile app that combines **cybersecurity riddles**, **network ch
 ## 📂 Project Structure
  `lib/
  main.dart          # Entry point of the app 
- home_page.dart     # Main home page
- level_page.dart    # Levels and riddles  
- network_page.dart  # Network checking page 
- riddle_page.dart   # Riddles UI `  
+ home_page1.dart     # Main home page
+ level_page1.dart    # Levels and riddles  
+ network_page1.dart  # Network checking page 
+ riddle_page1.dart   # Riddles UI `  
 ## 👨‍💻 Author
  
  
 - Developed by **Noha and Bismillah**
  
-- GitHub: [USERNAME](https://github.com/nOha1235)
+- GitHub: [nOha1235](https://github.com/nOha1235)
  
 
   
 ## 📜 License
  
-This project is licensed under the MIT License. Feel free to use and modify for learning purposes.
+This project is licensed under the MIT License. 
+Feel free to use and modify for learning purposes.
  
  
