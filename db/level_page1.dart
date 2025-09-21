@@ -2,11 +2,11 @@
 import 'riddle_page.dart'; // ✅
 
 class LevelPage extends StatelessWidget {
-  const LevelPage({super.key}); // ✅ 
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     final levels = ["مبتدئ", "متوسط", "متقدم"]; // ✅ قائمة مستويات اللعبة
+  const LevelPage({super.key}); // ✅
+
+  @override
+  Widget build(BuildContext context) {
+    final levels = ["مبتدئ", "متوسط", "متقدم"]; 
 //     final colors = [Colors.teal, Colors.orange, Colors.deepPurple]; // ✅ ألوان كل مستوى
 //     final icons = [Icons.school, Icons.settings, Icons.star]; // ✅ أيقونات كل مستوى
 //
