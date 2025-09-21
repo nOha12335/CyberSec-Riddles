@@ -72,11 +72,11 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 10),
             Text(
               networkStatus,
-              style: const TextStyle(fontSize: 18), 
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
+              style: const TextStyle(fontSize: 18),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
