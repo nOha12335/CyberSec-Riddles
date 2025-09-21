@@ -13,10 +13,10 @@ class LevelPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("اختر المستوى"),
-        backgroundColor: Colors.teal, 
+        backgroundColor: Colors.teal,
       ),
-//       body: Padding(
-//         padding: const EdgeInsets.all(16), // ✅ مسافة داخلية حول محتوى الصفحة
+      body: Padding(
+        padding: const EdgeInsets.all(16), 
 //         child: Column(
 //           children: List.generate(levels.length, (index) { // ✅ إنشاء بطاقة لكل مستوى
 //             return GestureDetector(
