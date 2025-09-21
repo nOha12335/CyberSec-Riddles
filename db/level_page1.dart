@@ -51,7 +51,7 @@ class LevelPage extends StatelessWidget {
                           fontWeight: FontWeight.bold),
                     ),
                     const Spacer(),
-                    const Icon(Icons.arrow_forward_ios, color: Colors.white), 
+                    const Icon(Icons.arrow_forward_ios, color: Colors.white),
                   ],
                 ),
               ),
