@@ -32,8 +32,8 @@ class LevelPage extends StatelessWidget {
                 margin: const EdgeInsets.symmetric(vertical: 12),
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: colors[index], 
-//                   borderRadius: BorderRadius.circular(20), // ✅ حواف دائرية
+                  color: colors[index],
+                  borderRadius: BorderRadius.circular(20), 
 //                   boxShadow: const [ // ✅ إضافة ظل للبطاقة
 //                     BoxShadow(
 //                         color: Colors.black26, blurRadius: 6, offset: Offset(0, 3))
