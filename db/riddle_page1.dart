@@ -29,8 +29,8 @@ class _RiddlePageState extends State<RiddlePage> {
     {"q": "ما هي عملية التشفير التي تستخدم مفتاح واحد فقط؟", "a": "symmetric"},
     {"q": "ما هو مصطلح البرمجيات الخبيثة؟", "a": "malware"},
   ];
-//
-//   final storage = const FlutterSecureStorage(); // ✅ لتخزين الإجابات المشفرة بأمان على الجهاز
+
+  final storage = const FlutterSecureStorage(); 
 //
 //   // دالة لتشفير الإجابة
 //   String hashAnswer(String input) =>
