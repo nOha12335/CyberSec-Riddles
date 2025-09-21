@@ -29,8 +29,8 @@ class LevelPage extends StatelessWidget {
                 );
               },
               child: Container(
-                margin: const EdgeInsets.symmetric(vertical: 12), 
-//                 padding: const EdgeInsets.all(20), // ✅ حشو داخلي للبطاقة
+                margin: const EdgeInsets.symmetric(vertical: 12),
+                padding: const EdgeInsets.all(20), 
 //                 decoration: BoxDecoration(
 //                   color: colors[index], // ✅ لون البطاقة حسب المستوى
 //                   borderRadius: BorderRadius.circular(20), // ✅ حواف دائرية
