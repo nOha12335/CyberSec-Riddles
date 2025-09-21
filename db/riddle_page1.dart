@@ -83,11 +83,11 @@ class _RiddlePageState extends State<RiddlePage> {
               child: ElevatedButton(
                 onPressed: checkAnswer,
                 style: ElevatedButton.styleFrom(minimumSize: const Size.fromHeight(56)),
-                child: const Text("تحقق"), 
-//               ),
-//             ),
-//             if (result != null) ...[
-//               const SizedBox(height: 20), // ✅ مسافة قبل عرض النتيجة
+                child: const Text("تحقق"),
+              ),
+            ),
+            if (result != null) ...[
+              const SizedBox(height: 20), 
 //               Text(result!, style: const TextStyle(fontSize: 20)), // ✅ عرض النتيجة (صحيح/خطأ أو انتهاء الألغاز)
 //             ]
 //           ],
