@@ -18,9 +18,9 @@ class LevelPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
-          children: List.generate(levels.length, (index) { 
-//             return GestureDetector(
-//               onTap: () { // ✅ عند الضغط على بطاقة المستوى
+          children: List.generate(levels.length, (index) {
+            return GestureDetector(
+              onTap: () { 
 //                 Navigator.push(
 //                   context,
 //                   MaterialPageRoute(
