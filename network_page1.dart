@@ -20,12 +20,12 @@ class _NetworkPageState extends State<NetworkPage> {
       if (connectivityResult == ConnectivityResult.mobile) {
         status = "✅ متصل: بيانات الهاتف";
       } else if (connectivityResult == ConnectivityResult.wifi) {
-        status = "✅ متصل: WiFi"; 
-//       } else {
-//         status = "❌ لا يوجد اتصال بالإنترنت"; // ✅ إذا لا يوجد اتصال
-//       }
-//     });
-//   }
+        status = "✅ متصل: WiFi";
+      } else {
+        status = "❌ لا يوجد اتصال بالإنترنت"; 
+      }
+    });
+  }
 //
 //   @override
 //   Widget build(BuildContext context) {
