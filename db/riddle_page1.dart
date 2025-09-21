@@ -61,9 +61,9 @@ class _RiddlePageState extends State<RiddlePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("مستوى ${widget.level}")), 
-//       body: Padding(
-//         padding: const EdgeInsets.all(20), // ✅ مسافة داخلية حول المحتوى
+      appBar: AppBar(title: Text("مستوى ${widget.level}")),
+      body: Padding(
+        padding: const EdgeInsets.all(20), 
 //         child: Column(
 //           crossAxisAlignment: CrossAxisAlignment.start,
 //           children: [
