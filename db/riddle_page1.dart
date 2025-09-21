@@ -45,9 +45,9 @@ class _RiddlePageState extends State<RiddlePage> {
 //
     if (input == riddles[currentRiddle]['a']) {
       setState(() {
-        result = "صحيح ✅"; 
-//         if (currentRiddle < riddles.length - 1) {
-//           currentRiddle++; // ✅ الانتقال للغز التالي
+        result = "صحيح ✅";
+        if (currentRiddle < riddles.length - 1) {
+          currentRiddle++; 
 //           controller.clear(); // ✅ مسح النص الموجود في حقل الإجابة
 //         } else {
 //           result = "🎉 أنهيت جميع الألغاز!"; // ✅ رسالة عند إنهاء كل الألغاز
