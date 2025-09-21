@@ -35,8 +35,8 @@ class _NetworkPageState extends State<NetworkPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(status, style: const TextStyle(fontSize: 20)), 
-//             const SizedBox(height: 20), // ✅ مسافة بين النص وزر الفحص
+            Text(status, style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 20), 
 //             ElevatedButton(
 //               onPressed: checkNetwork, // ✅ عند الضغط يتم فحص الشبكة
 //               child: const Text("افحص الآن"), // ✅ نص الزر
