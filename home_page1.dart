@@ -10,9 +10,9 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 //
-// class _HomePageState extends State<HomePage> {
-//   String networkStatus = "لم يتم الفحص بعد"; // ✅ متغير لتخزين حالة الاتصال بالإنترنت
-//
+class _HomePageState extends State<HomePage> {
+  String networkStatus = "لم يتم الفحص بعد";
+
 //   @override
 //   void initState() {
 //     super.initState();
