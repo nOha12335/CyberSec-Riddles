@@ -18,12 +18,12 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     ScreenProtector.preventScreenshotOn();
   }
-//
-//   @override
-//   void dispose() {
-//     ScreenProtector.preventScreenshotOff(); // ✅ السماح بتصوير الشاشة عند الخروج (اختياري)
-//     super.dispose();
-//   }
+
+  @override
+  void dispose() {
+    ScreenProtector.preventScreenshotOff();
+    super.dispose();
+  }
 //
 //   Future<bool> hasInternet() async { // ✅ دالة لفحص وجود الإنترنت فعليًا
 //     try {
