@@ -24,12 +24,12 @@ class LevelPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => RiddlePage(level: levels[index]), 
+                    builder: (context) => RiddlePage(level: levels[index]),
                   ),
                 );
               },
-//               child: Container(
-//                 margin: const EdgeInsets.symmetric(vertical: 12), // ✅ مسافة عمودية بين البطاقات
+              child: Container(
+                margin: const EdgeInsets.symmetric(vertical: 12), 
 //                 padding: const EdgeInsets.all(20), // ✅ حشو داخلي للبطاقة
 //                 decoration: BoxDecoration(
 //                   color: colors[index], // ✅ لون البطاقة حسب المستوى
