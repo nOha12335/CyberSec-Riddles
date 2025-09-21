@@ -1,8 +1,8 @@
  import 'package:flutter/material.dart';
-import 'riddle_page.dart'; // ✅ 
-//
-// class LevelPage extends StatelessWidget {
-//   const LevelPage({super.key}); // ✅ إنشاء صفحة اختيار المستوى كمكون StatelessWidget
+import 'riddle_page.dart'; // ✅
+
+class LevelPage extends StatelessWidget {
+  const LevelPage({super.key}); // ✅ 
 //
 //   @override
 //   Widget build(BuildContext context) {
