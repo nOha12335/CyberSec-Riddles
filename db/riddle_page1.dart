@@ -48,10 +48,10 @@ class _RiddlePageState extends State<RiddlePage> {
         result = "صحيح ✅";
         if (currentRiddle < riddles.length - 1) {
           currentRiddle++;
-          controller.clear(); 
-//         } else {
-//           result = "🎉 أنهيت جميع الألغاز!"; // ✅ رسالة عند إنهاء كل الألغاز
-//         }
+          controller.clear();
+        } else {
+          result = "🎉 أنهيت جميع الألغاز!"; 
+        }
 //       });
 //     } else {
 //       setState(() => result = "خطأ ❌"); // ✅ إذا كانت الإجابة خاطئة
