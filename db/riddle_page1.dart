@@ -88,7 +88,7 @@ class _RiddlePageState extends State<RiddlePage> {
             ),
             if (result != null) ...[
               const SizedBox(height: 20),
-              Text(result!, style: const TextStyle(fontSize: 20)), 
+              Text(result!, style: const TextStyle(fontSize: 20)),
             ]
           ],
         ),
