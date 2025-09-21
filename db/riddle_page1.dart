@@ -75,9 +75,9 @@ class _RiddlePageState extends State<RiddlePage> {
             TextField(
               controller: controller,
               decoration: const InputDecoration(
-                  labelText: "الإجابة", border: OutlineInputBorder()), 
+                  labelText: "الإجابة", border: OutlineInputBorder()),
             ),
-//             const SizedBox(height: 20), // ✅ مسافة بين حقل الإجابة وزر التحقق
+            const SizedBox(height: 20), 
 //             SizedBox(
 //               width: double.infinity,
 //               child: ElevatedButton(
