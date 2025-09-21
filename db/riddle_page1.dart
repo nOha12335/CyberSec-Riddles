@@ -63,12 +63,12 @@ class _RiddlePageState extends State<RiddlePage> {
     return Scaffold(
       appBar: AppBar(title: Text("مستوى ${widget.level}")),
       body: Padding(
-        padding: const EdgeInsets.all(20), 
-//         child: Column(
-//           crossAxisAlignment: CrossAxisAlignment.start,
-//           children: [
-//             Text(
-//               riddles[currentRiddle]["q"]!, // ✅ عرض نص السؤال الحالي
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              riddles[currentRiddle]["q"]!, 
 //               style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
 //             ),
 //             const SizedBox(height: 20), // ✅ مسافة بين السؤال وحقل الإجابة
