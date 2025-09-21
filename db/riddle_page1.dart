@@ -5,7 +5,7 @@ import 'dart:convert';
 
 class RiddlePage extends StatefulWidget {
   final String level;
-//   const RiddlePage({super.key, required this.level}); // ✅ إنشاء الصفحة مع تمرير المستوى
+  const RiddlePage({super.key, required this.level}); 
 //
 //   @override
 //   State<RiddlePage> createState() => _RiddlePageState(); // ✅ ربط الصفحة بحالتها
