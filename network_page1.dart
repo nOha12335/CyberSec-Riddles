@@ -30,11 +30,11 @@ class _NetworkPageState extends State<NetworkPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("فحص الشبكة")), 
-//       body: Center(
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center, // ✅ توسيط المحتوى عموديًا
-//           children: [
+      appBar: AppBar(title: const Text("فحص الشبكة")),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center, 
+          children: [
 //             Text(status, style: const TextStyle(fontSize: 20)), // ✅ عرض حالة الشبكة
 //             const SizedBox(height: 20), // ✅ مسافة بين النص وزر الفحص
 //             ElevatedButton(
