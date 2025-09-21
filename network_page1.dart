@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:connectivity_plus/connectivity_plus.dart'; 
-//
-// class NetworkPage extends StatefulWidget {
-//   const NetworkPage({super.key}); // ✅ إنشاء الصفحة StatefulWidget لفحص الشبكة
+import 'package:connectivity_plus/connectivity_plus.dart';
+
+class NetworkPage extends StatefulWidget {
+  const NetworkPage({super.key}); 
 //
 //   @override
 //   State<NetworkPage> createState() => _NetworkPageState(); // ✅ ربط الصفحة بحالتها
