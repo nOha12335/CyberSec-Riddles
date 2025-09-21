@@ -35,10 +35,10 @@ class _RiddlePageState extends State<RiddlePage> {
 
   String hashAnswer(String input) =>
       sha256.convert(utf8.encode(input.trim().toLowerCase())).toString();
-  
 
-//   // دالة التحقق من الإجابة
-//   void checkAnswer() async {
+
+  
+  void checkAnswer() async {
 //     final input = controller.text.trim().toLowerCase(); // ✅ الحصول على النص المدخل من المستخدم
 //     final hashedInput = hashAnswer(input); // ✅ تشفير الإجابة
 //     await storage.write(key: 'riddle_$currentRiddle', value: hashedInput); // ✅ حفظ الإجابة المشفرة
