@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart'; 
-// import 'package:connectivity_plus/connectivity_plus.dart'; // ✅ مكتبة لفحص حالة الشبكة (WiFi أو Mobile)
+import 'package:flutter/material.dart';
+import 'package:connectivity_plus/connectivity_plus.dart'; 
 //
 // class NetworkPage extends StatefulWidget {
 //   const NetworkPage({super.key}); // ✅ إنشاء الصفحة StatefulWidget لفحص الشبكة
