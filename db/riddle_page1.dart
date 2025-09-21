@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart'; 
-// import 'package:crypto/crypto.dart'; // ✅ استدعاء مكتبة التشفير SHA256
+import 'package:flutter/material.dart';
+import 'package:crypto/crypto.dart';
 // import 'package:flutter_secure_storage/flutter_secure_storage.dart'; // ✅ مكتبة لتخزين البيانات بأمان
 // import 'dart:convert'; // ✅ لتحويل النصوص إلى bytes للتشفير
 //
