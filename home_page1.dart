@@ -3,9 +3,9 @@ import 'package:screen_protector/screen_protector.dart';
 import 'level_page.dart';
 import 'dart:io';
 
-// class HomePage extends StatefulWidget {
-//   const HomePage({super.key});
-//
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
 //   @override
 //   State<HomePage> createState() => _HomePageState();
 // }
