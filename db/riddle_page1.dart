@@ -13,8 +13,8 @@ class RiddlePage extends StatefulWidget {
 
 class _RiddlePageState extends State<RiddlePage> {
   final controller = TextEditingController();
-  String? result; 
-//   int currentRiddle = 0; // ✅ مؤشر للغز الحالي
+  String? result;
+  int currentRiddle = 0; 
 //
 //   // ================== قائمة الألغاز ==================
 //   final List<Map<String, String>> riddles = [
