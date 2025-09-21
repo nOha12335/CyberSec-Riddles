@@ -64,8 +64,8 @@ class _HomePageState extends State<HomePage> {
               child: const Text("ابدأ"),
             ),
             const SizedBox(height: 20),
-//             ElevatedButton(
-//               onPressed: checkNetwork, // ✅ زر لتشغيل فحص الشبكة
+            ElevatedButton(
+              onPressed: checkNetwork, 
 //               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 50)), // ✅ حجم الزر
 //               child: const Text("فحص الشبكة"), // ✅ نص الزر
 //             ),
