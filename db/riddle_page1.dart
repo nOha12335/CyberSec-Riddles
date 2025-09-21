@@ -72,11 +72,11 @@ class _RiddlePageState extends State<RiddlePage> {
               style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
-//             TextField(
-              controller: controller, 
-//               decoration: const InputDecoration(
-//                   labelText: "الإجابة", border: OutlineInputBorder()), // ✅ تصميم الحقل
-//             ),
+            TextField(
+              controller: controller,
+              decoration: const InputDecoration(
+                  labelText: "الإجابة", border: OutlineInputBorder()), 
+            ),
 //             const SizedBox(height: 20), // ✅ مسافة بين حقل الإجابة وزر التحقق
 //             SizedBox(
 //               width: double.infinity,
