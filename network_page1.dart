@@ -14,11 +14,11 @@ class _NetworkPageState extends State<NetworkPage> {
 
   Future<void> checkNetwork() async {
     final connectivityResult = await Connectivity().checkConnectivity();
-    
+
 
     setState(() {
       if (connectivityResult == ConnectivityResult.mobile) {
-//         status = "✅ متصل: بيانات الهاتف"; // ✅ إذا متصل ببيانات الهاتف
+        status = "✅ متصل: بيانات الهاتف"; 
 //       } else if (connectivityResult == ConnectivityResult.wifi) {
 //         status = "✅ متصل: WiFi"; // ✅ إذا متصل بشبكة WiFi
 //       } else {
