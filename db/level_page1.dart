@@ -20,14 +20,14 @@ class LevelPage extends StatelessWidget {
         child: Column(
           children: List.generate(levels.length, (index) {
             return GestureDetector(
-              onTap: () { 
-//                 Navigator.push(
-//                   context,
-//                   MaterialPageRoute(
-//                     builder: (context) => RiddlePage(level: levels[index]), // ✅ الانتقال لصفحة الألغاز وتمرير المستوى المختار
-//                   ),
-//                 );
-//               },
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => RiddlePage(level: levels[index]), 
+                  ),
+                );
+              },
 //               child: Container(
 //                 margin: const EdgeInsets.symmetric(vertical: 12), // ✅ مسافة عمودية بين البطاقات
 //                 padding: const EdgeInsets.all(20), // ✅ حشو داخلي للبطاقة
