@@ -37,9 +37,9 @@ class _RiddlePageState extends State<RiddlePage> {
       sha256.convert(utf8.encode(input.trim().toLowerCase())).toString();
 
 
-  
+
   void checkAnswer() async {
-//     final input = controller.text.trim().toLowerCase(); // ✅ الحصول على النص المدخل من المستخدم
+    final input = controller.text.trim().toLowerCase(); 
 //     final hashedInput = hashAnswer(input); // ✅ تشفير الإجابة
 //     await storage.write(key: 'riddle_$currentRiddle', value: hashedInput); // ✅ حفظ الإجابة المشفرة
 //
