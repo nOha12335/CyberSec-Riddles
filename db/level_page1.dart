@@ -44,12 +44,12 @@ class LevelPage extends StatelessWidget {
                     Icon(icons[index], color: Colors.white, size: 36),
                     const SizedBox(width: 20),
                     Text(
-                      levels[index], 
-//                       style: const TextStyle(
-//                           color: Colors.white,
-//                           fontSize: 22,
-//                           fontWeight: FontWeight.bold), // ✅ تنسيق النص
-//                     ),
+                      levels[index],
+                      style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold), 
+                    ),
 //                     const Spacer(), // ✅ تعبئة المساحة الفارغة بين النص والسهم
 //                     const Icon(Icons.arrow_forward_ios, color: Colors.white), // ✅ سهم للانتقال
 //                   ],
