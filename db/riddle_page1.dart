@@ -12,8 +12,8 @@ class RiddlePage extends StatefulWidget {
 }
 
 class _RiddlePageState extends State<RiddlePage> {
-  final controller = TextEditingController(); 
-//   String? result; // ✅ لتخزين نتيجة الإجابة (صحيح/خطأ)
+  final controller = TextEditingController();
+  String? result; 
 //   int currentRiddle = 0; // ✅ مؤشر للغز الحالي
 //
 //   // ================== قائمة الألغاز ==================
