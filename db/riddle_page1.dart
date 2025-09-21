@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'dart:convert'; 
-//
-// class RiddlePage extends StatefulWidget {
-//   final String level; // ✅ مستوى اللغز (مبتدئ، متوسط، متقدم)
+import 'dart:convert';
+
+class RiddlePage extends StatefulWidget {
+  final String level;
 //   const RiddlePage({super.key, required this.level}); // ✅ إنشاء الصفحة مع تمرير المستوى
 //
 //   @override
