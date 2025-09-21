@@ -52,12 +52,12 @@ class _HomePageState extends State<HomePage> {
           children: [
             const Text(
               "🛡️ ألغاز الأمان",
-              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold), 
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
             ),
-//             const SizedBox(height: 30), // ✅ مسافة بين العنوان والزر
-//             ElevatedButton(
-//               onPressed: () => Navigator.push(
-//                 context,
+            const SizedBox(height: 30), 
+            ElevatedButton(
+              onPressed: () => Navigator.push(
+                context,
 //                 MaterialPageRoute(builder: (_) => const LevelPage()), // ✅ الانتقال لصفحة اختيار المستوى
 //               ),
 //               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 60)), // ✅ حجم الزر
