@@ -68,10 +68,10 @@ class _RiddlePageState extends State<RiddlePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              riddles[currentRiddle]["q"]!, 
-//               style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-//             ),
-//             const SizedBox(height: 20), // ✅ مسافة بين السؤال وحقل الإجابة
+              riddles[currentRiddle]["q"]!,
+              style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 20), 
 //             TextField(
 //               controller: controller, // ✅ ربط حقل النص بالـ controller
 //               decoration: const InputDecoration(
