@@ -39,17 +39,17 @@ class _HomePageState extends State<HomePage> {
     bool connected = await hasInternet();
     setState(() {
       networkStatus =
-      connected ? "✅ متصل بالإنترنت" : "❌ لا يوجد اتصال بالإنترنت"; 
+      connected ? "✅ متصل بالإنترنت" : "❌ لا يوجد اتصال بالإنترنت";
     });
   }
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: Center(
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center, // ✅ توسيط المحتوى عموديًا
-//           children: [
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center, 
+          children: [
 //             const Text(
 //               "🛡️ ألغاز الأمان",
 //               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold), // ✅ عنوان الصفحة
