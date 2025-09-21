@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                 context,
                 MaterialPageRoute(builder: (_) => const LevelPage()),
               ),
-//               style: ElevatedButton.styleFrom(minimumSize: const Size(200, 60)), // ✅ حجم الزر
+              style: ElevatedButton.styleFrom(minimumSize: const Size(200, 60)),
 //               child: const Text("ابدأ"), // ✅ نص الزر
 //             ),
 //             const SizedBox(height: 20), // ✅ مسافة بين الأزرار
