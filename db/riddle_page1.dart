@@ -54,14 +54,14 @@ class _RiddlePageState extends State<RiddlePage> {
         }
       });
     } else {
-      setState(() => result = "خطأ ❌"); 
+      setState(() => result = "خطأ ❌");
     }
   }
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(title: Text("مستوى ${widget.level}")), // ✅ شريط التطبيق مع عرض المستوى
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("مستوى ${widget.level}")), 
 //       body: Padding(
 //         padding: const EdgeInsets.all(20), // ✅ مسافة داخلية حول المحتوى
 //         child: Column(
