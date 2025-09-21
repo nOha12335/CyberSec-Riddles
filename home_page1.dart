@@ -24,9 +24,9 @@ class _HomePageState extends State<HomePage> {
     ScreenProtector.preventScreenshotOff();
     super.dispose();
   }
-//
-//   Future<bool> hasInternet() async { // ✅ دالة لفحص وجود الإنترنت فعليًا
-//     try {
+
+  Future<bool> hasInternet() async {
+    try {
 //       final result = await InternetAddress.lookup('google.com'); // ✅ تجربة البحث عن google.com
 //       return result.isNotEmpty && result[0].rawAddress.isNotEmpty; // ✅ إذا حصلنا على IP، الإنترنت موجود
 //     } catch (_) {
