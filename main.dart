@@ -37,10 +37,10 @@ class CyberApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
-//       home: const HomePage(),
-//     );
-//   }
-// }
+      home: const HomePage(),
+    );
+  }
+}
 //
 // class BlockedApp extends StatelessWidget {
 //   const BlockedApp({super.key});
