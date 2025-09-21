@@ -50,13 +50,13 @@ class _RiddlePageState extends State<RiddlePage> {
           currentRiddle++;
           controller.clear();
         } else {
-          result = "🎉 أنهيت جميع الألغاز!"; 
+          result = "🎉 أنهيت جميع الألغاز!";
         }
-//       });
-//     } else {
-//       setState(() => result = "خطأ ❌"); // ✅ إذا كانت الإجابة خاطئة
-//     }
-//   }
+      });
+    } else {
+      setState(() => result = "خطأ ❌"); 
+    }
+  }
 //
 //   @override
 //   Widget build(BuildContext context) {
