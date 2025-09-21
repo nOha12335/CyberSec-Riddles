@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
 class NetworkPage extends StatefulWidget {
-  const NetworkPage({super.key}); 
-//
-//   @override
-//   State<NetworkPage> createState() => _NetworkPageState(); // ✅ ربط الصفحة بحالتها
-// }
+  const NetworkPage({super.key});
+
+  @override
+  State<NetworkPage> createState() => _NetworkPageState(); 
+}
 //
 // class _NetworkPageState extends State<NetworkPage> {
 //   String status = "لم يتم الفحص بعد"; // ✅ متغير لتخزين حالة الشبكة
