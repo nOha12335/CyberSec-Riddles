@@ -39,8 +39,8 @@ class _RiddlePageState extends State<RiddlePage> {
 
 
   void checkAnswer() async {
-    final input = controller.text.trim().toLowerCase(); 
-//     final hashedInput = hashAnswer(input); // ✅ تشفير الإجابة
+    final input = controller.text.trim().toLowerCase();
+    final hashedInput = hashAnswer(input);
 //     await storage.write(key: 'riddle_$currentRiddle', value: hashedInput); // ✅ حفظ الإجابة المشفرة
 //
 //     if (input == riddles[currentRiddle]['a']) { // ✅ مقارنة الإجابة مع الإجابة الصحيحة
