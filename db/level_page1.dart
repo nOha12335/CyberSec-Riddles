@@ -41,8 +41,8 @@ class LevelPage extends StatelessWidget {
                 ),
                 child: Row(
                   children: [
-                    Icon(icons[index], color: Colors.white, size: 36), 
-//                     const SizedBox(width: 20), // ✅ مسافة بين الأيقونة والنص
+                    Icon(icons[index], color: Colors.white, size: 36),
+                    const SizedBox(width: 20), 
 //                     Text(
 //                       levels[index], // ✅ اسم المستوى
 //                       style: const TextStyle(
