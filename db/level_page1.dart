@@ -12,9 +12,9 @@ class LevelPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("اختر المستوى"), 
-//         backgroundColor: Colors.teal, // ✅ لون شريط التطبيق
-//       ),
+        title: const Text("اختر المستوى"),
+        backgroundColor: Colors.teal, 
+      ),
 //       body: Padding(
 //         padding: const EdgeInsets.all(16), // ✅ مسافة داخلية حول محتوى الصفحة
 //         child: Column(
