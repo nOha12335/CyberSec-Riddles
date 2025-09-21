@@ -5,11 +5,11 @@ import 'dart:convert';
 
 class RiddlePage extends StatefulWidget {
   final String level;
-  const RiddlePage({super.key, required this.level}); 
-//
-//   @override
-//   State<RiddlePage> createState() => _RiddlePageState(); // ✅ ربط الصفحة بحالتها
-// }
+  const RiddlePage({super.key, required this.level});
+
+  @override
+  State<RiddlePage> createState() => _RiddlePageState(); 
+}
 //
 // class _RiddlePageState extends State<RiddlePage> {
 //   final controller = TextEditingController(); // ✅ للتحكم بالنص المكتوب في حقل الإجابة
