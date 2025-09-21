@@ -48,9 +48,9 @@ class LevelPage extends StatelessWidget {
                       style: const TextStyle(
                           color: Colors.white,
                           fontSize: 22,
-                          fontWeight: FontWeight.bold), 
+                          fontWeight: FontWeight.bold),
                     ),
-//                     const Spacer(), // ✅ تعبئة المساحة الفارغة بين النص والسهم
+                    const Spacer(),
 //                     const Icon(Icons.arrow_forward_ios, color: Colors.white), // ✅ سهم للانتقال
 //                   ],
 //                 ),
