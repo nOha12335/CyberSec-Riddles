@@ -28,15 +28,15 @@ void main() async {
 class CyberApp extends StatelessWidget {
   const CyberApp({super.key});
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       title: 'CyberSec Riddles',
-//       theme: ThemeData(
-//         useMaterial3: true,
-//         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
-//       ),
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'CyberSec Riddles',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+      ),
 //       home: const HomePage(),
 //     );
 //   }
