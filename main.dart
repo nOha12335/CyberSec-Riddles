@@ -17,13 +17,13 @@ void main() async {
   } else if (Platform.isIOS) {
     isUnsafe = await RootCheckerPlus.isJailbreak() ?? false;
   }
-//   // تشغيل التطبيق بناءً على نتيجة الفحص
-//   if (isUnsafe) {
-//     runApp(const BlockedApp()); // شاشة الحظر
-//   } else {
-//     runApp(const CyberApp()); // التطبيق العادي
-//   }
-// }
+  // تشغيل التطبيق بناءً على نتيجة الفحص
+  if (isUnsafe) {
+    runApp(const BlockedApp()); // شاشة الحظر
+  } else {
+    runApp(const CyberApp()); // التطبيق العادي
+  }
+}
 //
 // class CyberApp extends StatelessWidget {
 //   const CyberApp({super.key});
