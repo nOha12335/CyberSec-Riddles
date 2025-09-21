@@ -10,13 +10,13 @@ void main() async {
   // 🔒
   await ScreenProtector.preventScreenshotOn();
 
-//   // فحص الروت والجلبريك
-//   bool isUnsafe = false;
-//   if (Platform.isAndroid) {
-//     isUnsafe = await RootCheckerPlus.isRootChecker() ?? false;
-//   } else if (Platform.isIOS) {
-//     isUnsafe = await RootCheckerPlus.isJailbreak() ?? false;
-//   }
+  // فحص الروت والجلبريك
+  bool isUnsafe = false;
+  if (Platform.isAndroid) {
+    isUnsafe = await RootCheckerPlus.isRootChecker() ?? false;
+  } else if (Platform.isIOS) {
+    isUnsafe = await RootCheckerPlus.isJailbreak() ?? false;
+  }
 //   // تشغيل التطبيق بناءً على نتيجة الفحص
 //   if (isUnsafe) {
 //     runApp(const BlockedApp()); // شاشة الحظر
