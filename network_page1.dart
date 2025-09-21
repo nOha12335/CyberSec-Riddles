@@ -9,11 +9,11 @@ class NetworkPage extends StatefulWidget {
 }
 
 class _NetworkPageState extends State<NetworkPage> {
-  String status = "لم يتم الفحص بعد"; 
+  String status = "لم يتم الفحص بعد";
 
-//   // دالة لفحص الشبكة
-//   Future<void> checkNetwork() async {
-//     final connectivityResult = await Connectivity().checkConnectivity();
+  
+  Future<void> checkNetwork() async {
+    final connectivityResult = await Connectivity().checkConnectivity();
 //     // ✅ استخدام مكتبة Connectivity لفحص نوع الاتصال الحالي
 //
 //     setState(() {
