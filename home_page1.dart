@@ -13,11 +13,11 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String networkStatus = "لم يتم الفحص بعد";
 
-//   @override
-//   void initState() {
-//     super.initState();
-//     ScreenProtector.preventScreenshotOn(); // ✅ منع تصوير الشاشة عند فتح الصفحة
-//   }
+  @override
+  void initState() {
+    super.initState();
+    ScreenProtector.preventScreenshotOn();
+  }
 //
 //   @override
 //   void dispose() {
