@@ -47,8 +47,8 @@ class _RiddlePageState extends State<RiddlePage> {
       setState(() {
         result = "صحيح ✅";
         if (currentRiddle < riddles.length - 1) {
-          currentRiddle++; 
-//           controller.clear(); // ✅ مسح النص الموجود في حقل الإجابة
+          currentRiddle++;
+          controller.clear(); 
 //         } else {
 //           result = "🎉 أنهيت جميع الألغاز!"; // ✅ رسالة عند إنهاء كل الألغاز
 //         }
