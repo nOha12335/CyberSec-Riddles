@@ -70,8 +70,8 @@ class _HomePageState extends State<HomePage> {
               child: const Text("فحص الشبكة"),
             ),
             const SizedBox(height: 10),
-//             Text(
-//               networkStatus, // ✅ عرض حالة الاتصال بالإنترنت
+            Text(
+              networkStatus,
 //               style: const TextStyle(fontSize: 18), // ✅ حجم الخط للنص
 //             ),
 //           ],
