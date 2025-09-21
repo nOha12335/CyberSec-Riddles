@@ -32,9 +32,10 @@ class _HomePageState extends State<HomePage> {
     } catch (_) {
       return false;
     }
-//   }
-//
-//   Future<void> checkNetwork() async { // ✅ دالة لتحديث حالة الشبكة في الصفحة
+  }
+
+  Future<void> checkNetwork() async {
+    
 //     bool connected = await hasInternet(); // ✅ تحقق من الإنترنت
 //     setState(() {
 //       networkStatus =
