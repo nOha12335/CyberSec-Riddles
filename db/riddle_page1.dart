@@ -32,11 +32,11 @@ class _RiddlePageState extends State<RiddlePage> {
 
   final storage = const FlutterSecureStorage();
 
-  
+
   String hashAnswer(String input) =>
       sha256.convert(utf8.encode(input.trim().toLowerCase())).toString();
-//   // ✅ تحويل الإجابة إلى أحرف صغيرة → تشفير SHA256 → تخزين مشفر
-//
+  
+
 //   // دالة التحقق من الإجابة
 //   void checkAnswer() async {
 //     final input = controller.text.trim().toLowerCase(); // ✅ الحصول على النص المدخل من المستخدم
